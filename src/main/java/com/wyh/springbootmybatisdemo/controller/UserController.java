@@ -22,13 +22,12 @@ public class UserController {
 
     @GetMapping("/login")
     public String jdsf(@RequestParam(value = "userName") String userName,@RequestParam(value = "passwd") String pw){
-        return "用户名不存在或密码不正确";
+        return "用户名sa不存sadasf在或密码不正确";
     }
 
     @PostMapping(value = "login",produces= MediaType.APPLICATION_JSON_VALUE)
     public String fds(@RequestBody  User user){
         return "登录成功";
-
     }
 
 
