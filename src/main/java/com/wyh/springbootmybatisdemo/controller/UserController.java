@@ -22,7 +22,7 @@ public class UserController {
 
     @GetMapping("/login")
     public String jdsf(@RequestParam(value = "userName") String userName,@RequestParam(value = "passwd") String pw){
-        return "用户名不存在或密码不正确";
+        return "用户名不存在或密码l不正确";
     }
 
     @PostMapping(value = "login",produces= MediaType.APPLICATION_JSON_VALUE)
