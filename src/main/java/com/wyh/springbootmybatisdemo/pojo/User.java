@@ -44,4 +44,9 @@ public class User implements Serializable {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public String toString(){
+        return "";
+    }
+
 }
