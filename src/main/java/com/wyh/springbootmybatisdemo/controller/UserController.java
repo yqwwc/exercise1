@@ -19,6 +19,7 @@ public class UserController {
         System.out.println("");
         System.out.println("s,lls");
         System.out.println("woshishui");
+        System.out.println("xiugai");
         return userMapper.findById(id);
     }
 
