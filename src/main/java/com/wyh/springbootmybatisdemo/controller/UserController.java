@@ -19,7 +19,7 @@ public class UserController {
         System.out.println("");
         System.out.println("s,lls");
 
-        System.out.println("woshishuiffff");
+        System.out.println("woshishuigit");
 
         System.out.println("xiugai");
 
