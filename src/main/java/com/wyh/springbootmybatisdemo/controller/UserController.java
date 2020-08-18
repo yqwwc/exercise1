@@ -18,7 +18,11 @@ public class UserController {
     public User findUser(@RequestParam(value = "id") Long id){
         System.out.println("");
         System.out.println("s,lls");
+
         System.out.println("woshishuiffff");
+
+        System.out.println("xiugai");
+
         return userMapper.findById(id);
     }
 
